@@ -1,0 +1,85 @@
+
+
+.sub-parent {
+    background-image: url(../assets/10.jpg);
+    width: 100%;
+    background-repeat: repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* align-items: center; */
+}
+.loginofdiv{
+    width: 40%;
+    height: 300px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 190px; */
+    margin-top: 50px;
+    overflow: hidden;
+    /* border-radius: 20px; */
+}
+
+.loginofdiv h2,h3,h4{
+    color: white;
+}
+.loginofdiv h4{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+input{
+    width: 90%;
+    margin: 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+input::placeholder{
+    color: rgb(5, 5, 5);
+    padding-left: 20px;
+}
+.register{
+    width: 50%;
+}
+
+.loginofdiv button{
+    width: 33%;
+    background-color: #2874A6;
+    border: none;
+    position: relative;
+    height: 40px;
+    border-radius: 13px;
+    color: white;
+}
+
+@media screen and (max-width:1000px){
+.loginofdiv{
+    /* margin-left: 130px; */
+    width: 80%;
+}
+input{
+    width: 60%;
+}
+}
+@media screen and (max-width:700px){
+    
+    input{
+        width: 75%;
+    }
+}
+@media screen and (max-width:550px){
+    .loginofdiv{
+        /* margin-left: 45px; */
+        width: 90%;
+    }
+    input{
+        width: 85%;
+    }
+}

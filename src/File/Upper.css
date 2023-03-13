@@ -1,0 +1,90 @@
+.uper{
+    height: 50px;
+    width: 100%;
+    background-color: #2C3E50;
+    display: flex;
+    float: right;
+    justify-content: right;
+    position: sticky;
+}
+.uper-head{
+    width: 30%;
+    position: absolute;
+    left: 50px;
+}
+.uper-head h3{
+    line-height: 50px;
+    font-size: 25px;
+    color: white;
+}
+.end {
+   width: 35%;
+   display: flex;
+   justify-content: end;
+}
+.end button{
+    height: 40px;
+    margin-top: 5px;
+    border: none;
+}
+.log button{
+    background-color: orange;
+    position: relative;
+    width: 110%;
+    right: 40px;
+}
+.reg {
+    background-color: gold;
+    width: 130%;
+    position: relative;
+    right: 30px;
+}
+@media screen and (max-width:657px){
+    .uper{
+        height: 50px;
+        width: 100%;
+        background-color: #2C3E50;
+        display: flex;
+        float: right;
+        justify-content: right;
+    }
+    .uper-head{
+        width: 35%;;
+    }
+    .uper-head h3{
+        font-size: 20px;
+    }
+    .end {
+       width: 40%;
+    }
+    .log button{
+        background-color: orange;
+        width: 100%;
+    }
+    .reg{
+        background-color: gold;
+        width: 130%;
+    }
+}
+@media screen and (max-width:530px){
+    .uper-head h3{
+        font-size: 17px;
+        margin-left: 5px;
+    }
+    .uper-head{
+        width: 40%;;
+        position: absolute;
+        left: 0px;
+    }
+    .end{
+        width: 44%;
+    }
+    .log button{
+        background-color: orange;
+        width: 100%;
+    }
+    .reg{
+        background-color: gold;
+        width: 130%;
+    }
+}

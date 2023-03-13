@@ -1,0 +1,28 @@
+.another{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.anothercard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.anothercard2{
+    display: flex;
+    /* float: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+.card-img1 img{
+  width: 90%;
+  margin-top: 20px;
+}
+.card-img2 img{
+    width: 80%;
+    margin-top: 20px;
+}
+

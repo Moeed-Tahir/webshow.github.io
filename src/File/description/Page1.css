@@ -1,0 +1,155 @@
+.detailimg {
+  height: 400px;
+  width: 30%;
+  margin: 10px 10px;
+}
+.detailimg img {
+  height: 400px;
+  width: 100%;
+}
+.detailparent {
+  display: flex;
+  float: left;
+  width: 100%;
+}
+.detail {
+  height: 600px;
+  width: 60%;
+  /* background-color: aqua; */
+  margin: 10px 10px;
+}
+.producthead {
+  height: 60px;
+  /* background-color: blue; */
+  border-bottom: 1px solid rgb(209, 209, 209);
+  margin: 20px 20px;
+}
+.producthead h3 {
+  color: brown;
+  /* margin-bottom: 30px;
+    margin-top: 20px; */
+}
+.detail-price {
+  border-bottom: 1px solid rgb(209, 209, 209);
+  height: 60px;
+  margin: 40px 20px;
+}
+.detail-price h4 {
+  color: black;
+  margin: 40px 20px;
+}
+.detail-price span {
+  color: brown;
+}
+.detail-price del {
+  font-size: 15px;
+}
+.product-review {
+  height: 60px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  margin: 40px 20px;
+}
+.product-review h4 {
+  font-size: 20px;
+  color: brown;
+  font-weight: 400;
+}
+.product-review span {
+  font-size: 15px;
+}
+.size-chart {
+  border-bottom: 1px solid rgb(209, 209, 209);
+  height: 80px;
+  margin: 40px 20px;
+}
+.size-data {
+  display: flex;
+  float: left;
+}
+.size-color{
+    display: flex;
+  float: left;
+}
+.availability{
+    border-bottom: 1px solid rgb(209, 209, 209);
+  height: 40px;
+  margin: 10px 20px;
+}
+.availability button{
+    background-color: rgba(29, 128, 29, 0.925);
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+.size-data button {
+  border: none;
+  margin-left: 10px;
+  background-color: rgb(177, 175, 175);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.Buy{
+    border-bottom: 1px solid rgb(209, 209, 209);
+  height: 60px;
+  margin-left: 20px;
+}
+.Buy button{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+
+@media screen and (max-width:820px){
+    .detailparent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      .detailimg {
+        height: 400px;
+        width: 60%;
+        margin: 10px 10px;
+      }
+      .detailimg img {
+        height: 400px;
+        
+        width: 100%;
+      }
+      .detail {
+        height: 600px;
+        width: 100%;
+        /* background-color: aqua; */
+        margin: 10px 10px;
+        
+      }
+}
+@media screen and (max-width:820px){
+    .producthead{
+        margin-left: 03px;
+        margin-right: 0px;
+    }
+    .availability{
+        margin-left: 03px;
+        margin-right: 0px;
+    }
+    .size-chart{
+        margin-left: 03px;
+        margin-right: 0px;
+    }
+    .product-review{
+        margin-left: 03px;
+        margin-right: 0px;
+    }
+    .detail-price{
+        margin-left: 03px;
+        margin-right: 0px;
+    }
+    .Buy{
+        margin-left: 03px;
+        margin-right: 0px;
+    }
+}
+

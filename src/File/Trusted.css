@@ -1,0 +1,75 @@
+.brandlogo1,.brandlogo2,.brandlogo3,.brandlogo4,.brandlogo5{
+    width: 15%;
+    height: 100px;
+    display: flex;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.brandlogo1 img{
+    height: 100px;
+    width: 100%; 
+}
+.brandlogo2 img{
+    height: 100px;
+    width: 100%; 
+}
+.brandlogo3 img{
+    height: 100px;
+    width: 100%; 
+}
+.brandlogo4 img{
+    height: 100px;
+    width: 100%; 
+}
+.brandlogo5 img{
+    height: 100px;
+    width: 100%; 
+}
+.partner-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:850px){
+    .partner-parent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    align-items: center;
+    }
+    .brandlogo1,.brandlogo2,.brandlogo3,.brandlogo4,.brandlogo5{
+       width: 35%;
+       /* padding-left: 50px; */
+       margin-top: 20px;
+       justify-content: center;
+       align-items: center;
+    }
+    .brandlogo1 img{
+       width: 100%;
+    }
+    .brandlogo2 img{
+        width: 100%;
+     }
+     .brandlogo3 img{
+        width: 100%;
+     }
+     .brandlogo4 img{
+        width: 100%;
+     }
+     .brandlogo5 img{
+        width: 100%;
+     }
+}
+@media screen and (max-width:600px){
+    .brandlogo1,.brandlogo2,.brandlogo3,.brandlogo4,.brandlogo5{
+        width: 30%;
+        margin-top: 20px;
+     }
+     .partner-parent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    align-items: center;
+    }
+}

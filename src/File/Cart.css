@@ -1,0 +1,51 @@
+
+.tdone img{
+    width: 40%;
+    height: 100px;
+}
+.tdthree {
+   display: flex;
+   float: left;
+   width: 100%;
+   /* width: 10%;
+   border: none; */
+   /* margin-left: 70px; */
+}
+.tdthree h6{
+    font-size: 30px;
+    margin: 0px 10px;
+}
+.ndtable{
+    margin: 0px ;
+}
+.check-btn{
+    border: none;
+    width: 10%;
+    height: 40px;
+    margin-left: 20px;
+}
+.total-price{
+    font-size: 23px;
+    margin-left: 30px;
+}
+.bt1{
+    width: 10%;
+   border: none;
+   margin-left: 40px;
+}
+.tdfour h6{
+   font-size: 20px;
+   color: white;
+}
+.bt2{
+    width: 10%;
+    border: none;
+}
+
+
+td{
+    width: 25%;
+}
+th{
+    width: 25%;
+}

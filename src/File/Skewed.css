@@ -1,0 +1,28 @@
+.outer
+{
+  padding:90px 0px;
+  position:relative;
+  margin-bottom: 60px;
+}
+.skewed-div
+{
+   
+   width:100%;
+   background-color:#f4f5fd;
+  -webkit-transform: skewY(-10deg);
+   transform: skewY(-10deg);
+   padding:4%;
+   text-align:center;
+  
+}
+.skewed-content
+{
+   -webkit-transform: skewY(10deg);
+   transform: skewY(10deg);
+}
+.skewed-content p
+{
+  padding:2% 20%;
+  font-size:20px;
+  line-height:30px;
+}

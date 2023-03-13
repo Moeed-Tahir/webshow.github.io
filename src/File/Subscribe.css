@@ -1,0 +1,92 @@
+.subscribe-parent{
+    width: 100%;
+    height: 300px;
+    background-image: url("assets/Subscribe/1.webp");
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin-bottom: 160px;
+    margin-top: 70px;
+}
+.subscribeheadings{
+    width: 55%;
+    height: 230px;
+    
+    /* background-color: aqua; */
+    /* margin-right: 20px; */
+    
+}
+.subsh5,.subsh3{
+    margin-left: 60px;
+    color: white;
+}
+.subscribecontent a{
+    position: relative;
+    right: 50px;
+    height: 45px;
+    width: 10%;
+    font-size: 25px;
+}
+.submit-icon{
+    color: blue;
+}
+.subscribecontent input{
+    width: 60%;
+    margin-left: 60px;
+    height: 45px;
+    border-radius: 20px;
+}
+.subscribepic{
+    width: 45%;
+    height: 300px;
+    /* background-color: blue; */
+}
+.subscribepic img{
+    width: 100%;
+    height: 300px;
+}
+@media screen and (max-width:900px){
+    .subscribe-parent{
+        width: 100%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    }
+    .subscribeheadings{
+        width: 70%;
+        height: 230px;
+        /* margin-left: 80px; */
+        /* background-color: aqua; */
+        margin-bottom: 40px;
+        /* margin-right: 20px; */}
+    .subscribepic{
+        /* margin-right: 70px; */
+        width: 55%;
+    }
+    .subscribecontent input{
+        width: 70%;
+        margin-left: 60px;
+        height: 45px;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width:560px){
+    .subscribeheadings{
+        width: 100%;
+        height: 230px;
+        /* margin-left: 80px; */
+        /* background-color: aqua; */
+        margin-bottom: 40px;
+        /* margin-right: 20px; */}
+    .subscribepic{
+        /* margin-right: 70px; */
+        width: 55%;
+    }
+    .subscribepic{
+        /* margin-right: 70px; */
+        width: 75%;
+    }
+}
